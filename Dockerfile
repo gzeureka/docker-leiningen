@@ -1,4 +1,4 @@
-FROM eclipse-temurin:8u412-b08-jdk-jammy
+FROM eclipse-temurin:8-jdk-jammy
 WORKDIR /root
 COPY lein /usr/bin
 RUN mkdir -p /root/.lein/self-installs
